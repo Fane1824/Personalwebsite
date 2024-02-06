@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ishaan Romil</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One">
+        <link rel="icon" type="image/x-icon" href="memoji.png">
+        <meta charset="UTF-8">
+        <style>
+            #containerblog {
+                min-height: 80vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-image: URL(homebanner/blog/marina.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                transition: background-image 0.5s ease;
+            }
+            @media screen and (max-width: 1000px) {
+                #footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                }
+                #containerblog {
+                    min-height: 50vw; 
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="containerblog">
+            <div id="header">
+                <ul id="header">
+                    <li id="logo">Ishaan Romil</a></li>
+                    <li><a href="blog.html" style="color:gold;" target="_blank">Blog</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="edu.html">Education</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <div id="center-box2">
+                <h1>Blog</h1>
+            </div>
+        </div>
+        <div id="blog-section">
+            <div class="blog-container">
+                <div id="blog-link-format">
+                    <a href="blog1.html">Exploring the Wonders of Singapore and Malaysia: A Journey through Vibrant Cultures and Spectacular Landscapes</a>
+                </div>
+                <div id="blog-link-format">
+                    <a href="blog2.html">The Second Amendment: How a Comma caused a Constitutional Crisis</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="dark-mode-toggle"></button>
+        </div>
+        <div id="footer">
+            <div class="footer-logo">
+                <a href="https://www.instagram.com/ishaan_romil/" target="_blank"><img src="insta.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://t.snapchat.com/NxteoW6p" target="_blank"><img src="snap.png" alt="Snapchat"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://mailto:ishaan.romil@gmail.com" target="_blank"><img src="mail.png" alt="Email"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://github.com/Fane1824" target="_blank"><img src="github.png" alt="GitHub"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://www.linkedin.com/in/ishaan-romil/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script>const page4Images = ["homebanner/blog/wings.jpg", "homebanner/blog/skyline.jpg", "homebanner/blog/marina.jpg"];
+            changeBackground("containerblog", page4Images);</script>
+    </body>
+</html>

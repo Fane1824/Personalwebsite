@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ishaan Romil</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One">
+        <link rel="icon" type="image/x-icon" href="memoji.png">
+        <meta charset="UTF-8">
+        <style>
+            #containerblog {
+                min-height: 80vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-image: URL(homebanner/blog/marina.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                transition: background-image 0.5s ease;
+            }
+            @media screen and (max-width: 1000px) {
+                #containerblog {
+                    min-height: 50vw; 
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="containerblog">
+            <div id="header">
+                <ul id="header">
+                    <li id="logo">Ishaan Romil</a></li>
+                    <li><a href="blog.html" style="color:gold;" target="_blank">Blog</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="edu.html">Education</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <div id="center-box2">
+                <h1>Blog</h1>
+            </div>
+        </div>
+        <div id="blog-section">
+            <div style="margin-left:10vw;width:80vw;text-align:center">
+                <h3>Exploring the Wonders of Singapore and Malaysia: A Journey through Vibrant Cultures and Spectacular Landscapes</h3>
+                <p>Embarking on a journey to Singapore and Malaysia is akin to stepping into a realm where modernity intertwines seamlessly with tradition, and urban landscapes merge with natural wonders. These countries, nestled in the heart of Southeast Asia, offer a kaleidoscope of experiences that captivate the senses and leave an indelible mark on the soul. My recent adventure to these vibrant lands encompassed traversing iconic landmarks, delving into rich cultural tapestries, and immersing myself in the sheer magnificence of nature's marvels.</p>
+                <p>Our expedition commenced in Singapore, a bustling metropolis renowned for its gleaming skyscrapers, pristine gardens, and world-class attractions. Universal Studios Singapore, an epitome of entertainment and thrill, beckoned us with its myriad of rides, immersive themed zones, and captivating live performances. As we wandered through the enchanting streets of Hollywood, New York, and Ancient Egypt, the park unleashed a wave of exhilaration and nostalgia, rekindling childhood memories and fostering new moments of joy and wonder.</p>
+                <p>Venturing further, Sentosa Island emerged as a tropical paradise brimming with excitement and relaxation. From basking in the sun-kissed beaches to embarking on adrenaline-pumping adventures, every corner of Sentosa exuded a sense of serenity and adventure. The S.E.A. Aquarium, a marine marvel nestled within Resorts World Sentosa, transported us into the mesmerizing depths of the ocean, where vibrant coral reefs, majestic sharks, and ethereal jellyfishes danced in a symphony of colors and movements, leaving us awe-struck and humbled by the wonders of marine life.</p>
+                <p>Amidst the urban bustle, Singapore's cultural enclaves offered glimpses into the city-state's rich heritage and diverse tapestry. Chinatown, with its labyrinthine lanes adorned with vibrant lanterns and bustling street markets, evoked a sense of nostalgia and authenticity. The aroma of sizzling street food and the melodious chants of temple prayers infused the air, inviting us to delve deeper into the cultural fabric of Singapore and unravel its myriad of stories and traditions.</p>
+                <p>Our sojourn in Singapore culminated with a visit to Marina Bay Sands, an architectural marvel that graced the city's skyline with its iconic silhouette. Ascending to the skydeck, we were greeted by panoramic vistas of the cityscape, where glistening skyscrapers melded with verdant gardens and meandering waterways, creating a tapestry of urban beauty and sophistication that enraptured the senses and ignited the imagination.</p>
+                <p>Crossing borders into Malaysia, we found ourselves amidst the splendor of Kuala Lumpur, a vibrant capital pulsating with energy and diversity. The Petronas Towers, towering monuments to human ingenuity and ambition, stood as testaments to Malaysia's rise on the global stage. Ascending to the observation deck, we beheld breathtaking views of the cityscape, where modernity converged with tradition in a mesmerizing display of architectural prowess and cultural heritage.</p>
+                <p>Our expedition culminated with a pilgrimage to the Batu Caves, a sacred Hindu site nestled amidst limestone cliffs on the outskirts of Kuala Lumpur. As we ascended the steep staircase adorned with colorful murals and intricate sculptures, a sense of reverence and tranquility enveloped us. The grandeur of the towering limestone caverns, coupled with the rhythmic chants of prayers and the gentle rustle of leaves, imbued the air with a palpable sense of spirituality and serenity, leaving an indelible imprint on our hearts and souls.</p>
+                <p>In retrospect, my adventures in Singapore and Malaysia transcended mere sightseeing; they were transformative journeys that enriched my spirit, broadened my horizons, and deepened my appreciation for the beauty and diversity of our world. From the gleaming metropolises to the tranquil sanctuaries of nature, each moment was a testament to the boundless wonders that await those who dare to explore and embrace the unknown.</p>
+                <p>As I bid farewell to these enchanting lands, I carry with me cherished memories and profound lessons learned, forever grateful for the privilege of experiencing the magic and splendor of Singapore and Malaysia.</p>
+                <div class="like-comment-section">
+                    <button class="like-button" id="like-button-1" onclick="toggleLike(1)">Like</button>
+                    <span class="like-counter" id="like-counter-1">0 Likes</span>
+                </div>
+                <div>
+                    <h4>Comments</h4>
+                    <ol style="list-style-position: inside;">
+                        <li>Your vivid descriptions transported me to those incredible destinations!</li>
+                        <li>Thank you for sharing your unforgettable journey with us!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="dark-mode-toggle"></button>
+        </div>
+        <div id="footer">
+            <div class="footer-logo">
+                <a href="https://www.instagram.com/ishaan_romil/" target="_blank"><img src="insta.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://t.snapchat.com/NxteoW6p" target="_blank"><img src="snap.png" alt="Snapchat"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://mailto:ishaan.romil@gmail.com" target="_blank"><img src="mail.png" alt="Email"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://github.com/Fane1824" target="_blank"><img src="github.png" alt="GitHub"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://www.linkedin.com/in/ishaan-romil/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script>const page4Images = ["homebanner/blog/wings.jpg", "homebanner/blog/skyline.jpg", "homebanner/blog/marina.jpg"];
+            changeBackground("containerblog", page4Images);</script>
+        <script>
+            function toggleLike(postId) {
+                var likeButton = document.getElementById('like-button-' + postId);
+                var likeCounter = document.getElementById('like-counter-' + postId);
+                var currentLikes = parseInt(likeCounter.innerText);
+
+                if (likeButton.classList.contains('liked')) {
+                    likeButton.innerText = 'Like';
+                    likeButton.style.backgroundColor = '#007bff';
+                    likeButton.classList.remove('liked');
+                    likeCounter.innerText = (currentLikes - 1) + ' Likes';
+                    localStorage.setItem('likeCount-' + postId, currentLikes - 1);
+                } else {
+                    likeButton.innerText = 'Unlike';
+                    likeButton.style.backgroundColor = '#808080';
+                    likeButton.classList.add('liked');
+                    likeCounter.innerText = (currentLikes + 1) + ' Likes';
+                    localStorage.setItem('likeCount-' + postId, currentLikes + 1);
+                }
+            }
+
+            function initializeLikes() {
+                var likeCount = localStorage.getItem('likeCount-1');
+                if (likeCount !== null) {
+                    var likeCounter = document.getElementById('like-counter-1');
+                    likeCounter.innerText = likeCount + ' Likes';
+                }
+            }
+
+            window.onload = function() {
+                initializeLikes();
+            };
+
+        </script>
+    </body>
+</html>

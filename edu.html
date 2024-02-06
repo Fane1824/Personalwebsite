@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ishaan Romil</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One">
+    <link rel="icon" type="image/x-icon" href="memoji.png">
+    <meta charset="UTF-8">
+    <style>
+        #containeredu {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: URL(homebanner/schools/IIIT-Hyderabad.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            transition: background-image 0.5s ease;
+        }
+        @media screen and (max-width: 1000px) {
+            #containeredu {
+                min-height: 50vw; 
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div id="containeredu">
+        <div id="header">
+            <ul id="header">
+                <li id="logo">Ishaan Romil</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="edu.html" style="color:gold;">Education</a></li>
+                <li><a href="index.html">Home</a></li>
+                
+            </ul>
+        </div>
+        <div id="center-box">
+            <h1>Education</h1>
+        </div>
+    </div>
+    <div id = "edu-text">
+        <h1>Institutions Attended</h1>
+        <p>My educational journey has been a tapestry woven from threads of diverse cultures 
+        and perspectives. Growing up, I crisscrossed between classrooms in two countries, 
+        soaking in the unique approaches and environments each had to offer. 
+        In India, I thrived on the vibrant energy of large class sizes and the emphasis on 
+        rote learning, which instilled in me a strong foundation in core subjects.
+        Moving to the US exposed me to smaller, discussion-based classes, encouraging critical 
+        thinking and independent learning. These contrasting experiences broadened my horizons, 
+        allowing me to appreciate the value of both traditional and progressive teaching methods. 
+        This exposure to different educational styles has instilled in me a global perspective, 
+        one that values diverse viewpoints and recognizes the strengths inherent in various approaches 
+        to learning. It's a perspective that I believe enriches not only my academic pursuits but 
+        also my understanding of the world around me.</p>
+    </div>
+    <div id="education-table">
+        <table>
+            <tr>
+                <th>School</th>
+                <th>Years Attended</th>
+                <th>Grade Level</th>
+            </tr>
+            <tr>
+                <td>IIIT Hyderabad</td>
+                <td>2023-Present</td>
+                <td>1st Year</td>
+            </tr>
+            <tr>
+                <td>Treamis World School</td>
+                <td>2021-2023</td>
+                <td>11-12th Grade</td>
+            </tr>
+            <tr>
+                <td>Candor International School</td>
+                <td>2020-2021</td>
+                <td>9th-10th Grade</td>
+            </tr>
+            <tr>
+                <td>Naperville North High School</td>
+                <td>2019-2020</td>
+                <td>9th Grade</td>
+            </tr>
+            <tr>
+                <td>Kennedy Junior High School</td>
+                <td>2017-2019</td>
+                <td>7th-8th Grade</td>
+            </tr>
+            <tr>
+                <td>Hanover Highlands Elementary School</td>
+                <td>2016-2017</td>
+                <td>6th Grade</td>
+            </tr>
+            <tr>
+                <td>12th Street Elementary School</td>
+                <td>2013-2016</td>
+                <td>3rd-5th Grade</td>
+            </tr>
+            <tr>
+                <td>James Monroe Elementary School</td>
+                <td>2012-2013</td>
+                <td>2nd Grade</td>
+            </tr>
+            <tr>
+                <td>Ryan International School</td>
+                <td>2009-2012</td>
+                <td>UKG-2nd Grade</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1 style = "text-align: center;">Grades Recieved</h1>
+        <table id="education-table2">
+            <tr>
+                <th>Institution</th>
+                <th>Grade Achieved</th>
+            </tr>
+            <tr>
+                <td>IIIT Hyderabad</td>
+                <td>8.94 CGPA</td>
+            </tr>
+            <tr>
+                <td>Treamis World School (AISSCE)</td>
+                <td>95.4%</td>
+            </tr>
+            <tr>
+                <td>Candor International School (Cambridge IGCSE)</td>
+                <td>95%</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <button id="dark-mode-toggle"></button>
+    </div>
+    <div id="footer">
+        <div class="footer-logo">
+            <a href="https://www.instagram.com/ishaan_romil/" target="_blank"><img src="insta.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://t.snapchat.com/NxteoW6p" target="_blank"><img src="snap.png" alt="Snapchat"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://mailto:ishaan.romil@gmail.com" target="_blank"></a><img src="mail.png" alt="Email"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://github.com/Fane1824" target="_blank"><img src="github.png" alt="GitHub"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://www.linkedin.com/in/ishaan-romil/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>const page2Images = ["homebanner/schools/eleschool.png", "homebanner/schools/candor.jpg", "homebanner/schools/IIIT-Hyderabad.jpg"];
+        changeBackground("containeredu", page2Images);</script>
+</body>
+</html>

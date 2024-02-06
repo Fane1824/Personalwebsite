@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ishaan Romil</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One">
+    <link rel="icon" type="image/x-icon" href="memoji.png">
+    <meta charset="UTF-8">
+    <style>
+        #containerach {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: URL(homebanner/ach/vale.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            transition: background-image 0.5s ease;
+        }
+        @media screen and (max-width: 1000px) {
+            #footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+            }
+            #containerach {
+                min-height: 50vw; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="containerach">
+        <div id="header">
+            <ul id="header">
+                <li id="logo">Ishaan Romil</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="achievements.html" style="color:gold;">Achievements</a></li>
+                <li><a href="edu.html">Education</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div id="center-box">
+            <h1>Achievements</h1>
+        </div>
+    </div>
+    <div>
+        <h1 style="text-align: center;">Academic Achievements</h1>
+        <table>
+            <tr>
+                <th>Issuing Authority</th>
+                <th>Achievement</th>
+                <th>Year Granted</th>
+            </tr>
+            <tr>
+                <td>Treamis World School</td>
+                <td>Valedictorian</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Treamis World School</td>
+                <td>Honor Roll</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Cambridge International Certificate of Education</td>
+                <td>Distinction</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Naperville North High School</td>
+                <td>Distinguished Honor Roll</td>
+                <td>2020</td>
+            </tr>
+        </table>
+        <table>
+            <h1 style="text-align: center;">Test Scores</h1>
+            <tr>
+                <th>Test</th>
+                <th>Score/Rank</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>IIM Indore IPMAT</td>
+                <td>Rank 35</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>IIIT Hyderabad UGEE</td>
+                <td>Rank 155</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>SAT (superscore)</td>
+                <td>1570/1600</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>PSAT</td>
+                <td>1510/1520</td>
+                <td>2021</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1 style = "text-align: center;">Co-curricular Achievements</h1>
+        <table>
+            <tr>
+                <th>Organizing Body</th>
+                <th>Event</th>
+                <th>Achievement</th>
+                <th>Year Granted</th>
+            </tr>
+            <tr>
+                <td>St. Joseph's Boys' High School</td>
+                <td>Bifrost<br><em>Commerce Fest</em></td>
+                <td>2nd Place in Arbitrage</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>International Legal Summit</td>
+                <td>MUN<br></td>
+                <td>High Commendation</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Junior State of America</td>
+                <td>Midwest One-Day Conference<br><em>Debate & Speech Competition</em></td>
+                <td>Best Speaker</td>
+                <td>2019</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <button id="dark-mode-toggle"></button>
+    </div>
+    <div id="footer">
+        <div class="footer-logo">
+            <a href="https://www.instagram.com/ishaan_romil/" target="_blank"><img src="insta.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://t.snapchat.com/NxteoW6p" target="_blank"><img src="snap.png" alt="Snapchat"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://mailto:ishaan.romil@gmail.com" target="_blank"><img src="mail.png" alt="Email"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://github.com/Fane1824" target="_blank"><img src="github.png" alt="GitHub"></a>
+        </div>
+        <div class="footer-logo">
+            <a href="https://www.linkedin.com/in/ishaan-romil/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>const page3Images = ["homebanner/ach/secgen.png", "homebanner/ach/dar.png", "homebanner/ach/vale.jpg"];
+        changeBackground("containerach", page3Images);</script>
+</body>
+</html>

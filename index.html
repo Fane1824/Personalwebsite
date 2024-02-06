@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ishaan Romil</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One">
+        <link rel="icon" type="image/x-icon" href="memoji.png">
+        <meta charset="UTF-8">
+        <style>
+            #containerhome {
+                min-height: 80vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-image: URL(homebanner/night/night5.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+                transition: background-image 0.5s ease;
+            }
+            @media screen and (max-width: 1000px) {
+                #containerhome {
+                min-height: 50vw; 
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="containerhome">
+            <div id="header">
+                <ul id="header">
+                    <li id="logo">ISHAAN ROMIL</a></li>
+                    <li><a href="blog.html" target="_blank">Blog</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="edu.html">Education</a></li>
+                    <li><a href="index.html" style="color:gold;">Home</a></li>
+                </ul>
+            </div>
+            <div id="center-box">
+                <div>
+                    <span id="line1"></span><br><br>
+                    <span id="line2"></span>
+                </div>
+            </div>
+        </div>
+        <div id="biography">
+            <div id="image-container">
+                <img src="me.png" alt="Your Image">
+            </div>
+            <div id="bio-text">
+                <h1>Ishaan Romil</h2>
+                <h3>Undergraduate Student at IIIT Hyderabad</h4>
+                <p>Hey there! I'm Ishaan, a computer science student at IIIT Hyderabad. 
+                    Growing up between the US and India's tech hub, Bangalore, 
+                    gave me a unique mix of perspectives that I try to bring to everything I do. 
+                    Right now, I'm diving into the world of computational linguistics, 
+                    but I'm also a coding chameleon, comfortable in C, HTML/CSS/JavaScript, 
+                    and even a bit of Python.</p><br>
+                <p> But finance is where my curiosity takes another leap. 
+                    The whole world of technical and quantitative analysis fascinates me. 
+                    Case competitions and commerce fests have been my training ground for 
+                    understanding portfolio management, investment strategies, and financial analysis. 
+                    I even dabble in self-taught technical analysis – who knows, 
+                    maybe a future investor is lurking here!</p><br>
+                </p>
+                <p>
+                    And beyond the technical stuff? You can find me debating in Model UN, 
+                    arguing my point in congressional debates, or maybe even writing an article or two.
+                    I guess you could say I like to keep things interesting. 
+                    So, yeah, that's me – bridging the gap between code and cash, 
+                    one line of code or financial analysis at a time.</p>
+            </div>
+        </div>
+        <div>
+            <button id="dark-mode-toggle"></button>
+        </div>
+        <div id="footer">
+            <div class="footer-logo">
+                <a href="https://www.instagram.com/ishaan_romil/" target="_blank"><img src="insta.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://t.snapchat.com/NxteoW6p" target="_blank"><img src="snap.png" alt="Snapchat"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://mailto:ishaan.romil@gmail.com" target="_blank"><img src="mail.png" alt="Email"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://github.com/Fane1824" target="_blank"><img src="github.png" alt="GitHub"></a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://www.linkedin.com/in/ishaan-romil/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script>const page1Images = ["homebanner/night/night4.png", "homebanner/night/night6.png", "homebanner/night/night5.jpg"];
+            changeBackground("containerhome", page1Images);</script>
+    </body>
+</html>

@@ -1,0 +1,500 @@
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg/cumulus-cloud.jpg/metofficegovuk%3AheroXXLarge);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header li {
+    float: right;
+}
+
+#header {
+    width: calc(100% - 2.5vw); 
+    background-color: #333333;
+    opacity: 0.8;
+    position: fixed;
+    top: 1.25vw; 
+    left: 1.25vw; 
+    right:1.25vw;
+    z-index: 1;
+    border-radius: 0.625vw; 
+}
+
+#header a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5625vw; 
+    text-decoration: none;
+    font-size: 1.25vw;
+}
+
+#logo {
+    display: block;
+    color: white;
+    text-align: center;
+    float: left !important;
+    padding: 0.78125vw; 
+    padding-top: 1vw;
+    text-decoration: none;   
+    font-family:'Fjalla One', sans-serif; 
+    font-size: 2.25vw;
+    margin-left: 1.25vw;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#center-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 80%;
+    padding: 2vw; 
+    font-size: 1.5vw; 
+    border-radius: 1.25vw; 
+    text-align: center;
+    margin-top: 10vh; 
+}
+
+#center-box2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 1vw; 
+    padding-bottom: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1.5vw; 
+    border-radius: 1.25vw;
+    text-align: center;
+    margin-top: 10vh; 
+}
+
+#line1 {
+    font-size: 2vw; 
+}
+
+#line2 {
+    font-size: 1.5vw; 
+}
+
+#biography {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw; 
+}
+
+#image-container {
+    margin-right: 3.9vw; 
+    margin-left: 1.95vw;
+}
+
+#image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 1vw; 
+}
+
+#bio-text {
+    max-width: 42vw;
+}
+
+#bio-text p {
+    font-size: 1.5vw; 
+    line-height: 1.6;
+}
+
+#footer {
+    background-color: #000;
+    padding: 2vw 0;
+    text-align: center;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin: 0 2vw; 
+}
+
+.footer-logo img {
+    width: 3.125vw; 
+    height: 3.125vw; 
+}
+
+/* education */
+
+#education-table {
+    margin-top: 2vw;
+}
+
+#education-table2 {
+    width: 50vw; 
+    margin-top: 2vw;
+    margin-bottom: 2vw; 
+}
+
+table {
+    width: 80vw; 
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 3.4375vw; 
+}
+
+th, td {
+    border: 0.0625vw solid #dddddd; 
+    padding: 0.625vw;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+
+#edu-text {
+    width: 80vw; 
+    margin: 2vw auto;
+    text-align: center;
+}
+
+#edu-text p {
+    background-color: var(--primary-color);
+    padding: 2vw;
+    border-radius: 0.625vw; 
+    font-size: 1.25vw;
+    line-height: 1.6;
+}
+
+/* skills */
+
+#skill-section {
+    padding: 2vw 0; 
+    text-align: center;
+}
+
+#skill-section h1 {
+    font-size: 2.25vw; 
+    margin-bottom: 1.25vw; 
+}
+
+#skill-content {
+    display: flex;
+    justify-content: center;
+}
+
+#skill-table {
+    width: 50vw;
+    align-items: center;
+}
+
+#skill-table table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#skill-table th, #skill-table td {
+    padding: 1vw; 
+    border: 0.1vw solid #ddd;
+}
+
+#skill-paragraph {
+    width: 50vw; 
+    padding: 0 2vw; 
+    margin-top: 5vw; 
+}
+
+#skill-paragraph p {
+    font-size: 1.5vw; 
+    line-height: 1.6;
+}
+
+#programming-skills {
+    text-align: center;
+    margin-bottom: 3.125vh; 
+}
+
+#skill-boxes {
+    display: inline-block;
+}
+
+.skill-box {
+    display: inline-block;
+    border: 0.1vw solid #ccc; 
+    border-radius: 0.3125vw;
+    padding: 0.3125vw 0.625vw; 
+    margin: 0 1.25vw;
+    background-color: #f2f2f2; 
+    color: black;
+    color: var(--secondary-color);
+}
+
+#see-more {
+    text-align: center;
+    margin-top: 1.25vh; 
+    margin-bottom: 3.125vh; 
+}
+
+#see-more h1 {
+    margin-bottom: 0.625vh; 
+}
+
+#see-more button {
+    display: inline-block;
+    border: 0.1vw solid #ccc;
+    border-radius: 0.3125vw;
+    padding: 0.3125vw 0.625vw;
+    margin-top: 1.25vw; 
+    background-color: #f2f2f2; 
+    color: var(--secondarys-color);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#see-more button:hover {
+    background-color: #e0e0e0; 
+}
+
+/* blog */
+
+#blog-section {
+    margin-top: 1.25vh; 
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog-link-format {
+    text-align: center;
+    max-width:40vw;
+    font-size:2.5vw;
+    margin-bottom:5vw;
+    margin:5vw;
+}
+
+#blog-link-format a {
+    color:var(--secondary-color);
+    text-decoration:none;
+}
+
+.like-comment-section {
+    margin-top: 1.25vw; 
+}
+
+.like-button {
+    padding: 0.3125vw 0.625vw; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.3125vw; 
+    cursor: pointer;
+}
+
+.like-counter {
+    margin-left: 0.625vw; 
+}
+
+.like-button.liked {
+    background-color: #808080;
+}
+
+/* darkmode & color formatting */
+
+.dark-mode #header {
+    background-color: #111; 
+}
+
+.dark-mode #center-box {
+    background-color: #000; 
+}
+
+.dark-mode #center-box2 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color:#f2f2f2;
+}
+
+.dark-mode {
+    --primary-color: #222;
+    --secondary-color: white;
+    --tertiary-color: #f2f2f2;
+}
+
+.dark-mode th, td {
+    border: 1px solid #dddddd; 
+    padding: 8px;
+    text-align: center;
+}
+
+.dark-mode th {
+    background-color: #444444; 
+    color: white; 
+}
+
+.dark-mode tr:nth-child(even) {
+    background-color: #333333;
+    color: white; 
+}
+
+.dark-mode tr:hover {
+    background-color: #555555; 
+}
+
+.dark-mode .skill-box {
+    background-color: #444444;
+}
+
+.dark-mode #see-more button {
+    background-color: #444444;
+}
+
+#dark-mode-toggle {
+    position: fixed;
+    bottom: 2.5vw; 
+    right: 2.5vw; 
+    background-color: rgba(0, 0, 0, 0.8);
+    color: black;
+    width: 10vw; 
+    height: 10vw; 
+    border: 0.1vw solid black; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.125vw;
+    cursor: pointer;
+    z-index: 1000; 
+    box-shadow: none;
+}
+
+/* for mobile */
+
+@media screen and (max-width: 1000px) {
+    #container {
+        min-height: 50vw; 
+    }
+    #header a {
+        font-size: 3.5vw;
+    }
+    #logo {
+        font-size: 3.5vw;
+    }
+    #biography {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-container {
+        margin-top:5vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+    }
+    
+    #image-container img {
+        margin:5vw;
+        max-width: 100%;
+        height: 70vw;
+        border-radius: 50%;
+        align-items: center;
+        align-content: center;
+        margin: 1vw; 
+    }
+
+    #bio-text h1, h3 {
+        text-align: center;
+    }
+    
+    #bio-text p {
+        text-align: center;
+        font-size: 1.5vw; 
+        line-height: 1.6;
+        max-width:80vw;
+    }
+    #bio-text {
+        margin-left: 10vw;
+        max-width: 80vw; 
+    }
+    #skill-table {
+        margin-left: 10vw;
+        width:80vw;
+    }
+    #skill-table td, th {
+        font-size: 2.5vw;
+    }
+    #skill-paragraph p{
+        font-size: 3vw;
+        margin-left:10vw;
+        width:80vw;
+    }
+    #skill-content {
+        display:inline;
+    }
+    .skill-box {
+        font-size: 4vw;
+    }
+    #see-more button {
+        font-size: 4vw;
+    }
+    .footer-logo img {
+        width: 5vw;
+        height: 5vw;  
+    }
+    
+    table {
+        font-size: 2.5vw;
+    }
+
+    .like-button {
+        font-size: 2.5vw;
+    }
+
+    .like-counter {
+        font-size: 2.5vw;
+    }
+
+    #line1 {
+        font-size: 6vw;
+    }
+    
+    #line2 {
+        font-size: 4vw;
+    }
+}
+
+
+
